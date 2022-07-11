@@ -27,5 +27,11 @@ produto = {
 """ for atrib in produto:
     print(atrib, '=>', produto[atrib]) """
 
-for atrib, valor in produto.items():
-    print(atrib, '=>', valor)
+# for atrib, valor in produto.items():
+#     print(atrib, '=>', valor)
+
+for valor in produto.values():
+    print(valor, end=' ')
+
+for atrib in produto.keys():
+    print(atrib, end=' ')
